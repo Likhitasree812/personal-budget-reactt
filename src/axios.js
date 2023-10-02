@@ -6,7 +6,7 @@ const axiosInstance = axios.create({
   timeout: 5000, 
   
 });
-
+//axios
 
 export const axiosGet = (url, params) => {
   return axiosInstance.get(url, { params });
